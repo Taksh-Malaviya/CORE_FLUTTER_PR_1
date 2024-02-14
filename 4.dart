@@ -29,8 +29,6 @@ void main() {
       a[i][j] = val;
     }
   }
-
-  //Logic
   print("\n----:Sum of Array:----\n"); 
   for (var i = 0; i < 3; i++) {
     for (var j = 0; j < 3; j++) stdout.write("${a[i][j] + b[i][j]} ");
